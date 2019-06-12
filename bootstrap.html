@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap.css" rel="stylesheet">
+
+</head>
+<body>
+<nav class="navbar navbar-light bg-light fixed-top " >
+  <a class="navbar-brand">
+      <i class="fa fa-instagram"></i> Instagram</a>
+  <div class="dropdown">
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+  create a new post</button>
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fa fa-cog"></i>
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+</nav>
+
+<br>
+<div class="container">
+  <div class="row justify-content-center">
+<div>
+    <ul class="nav nav-item " id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="fa fa-square" aria-hidden="true"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="fa fa-th" aria-hidden="true"></i></a>
+  </li>
+</ul>
+</div>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+   <div class="col-12 ">
+  <img class="card-img-top" src="http://doctorpet.cl/includes/thumbnailer.php/crop/700/400/ols-cat.jpg" alt="Card image cap" class="img-thumbnail" >
+  </div>
+  <div class="col-12 ">
+      <img class="card-img-top" src="https://culturizando.com/wp-content/uploads/2018/07/thumb_600x0_gatito.png" alt="Card image cap" class="img-thumbnail" >
+  </div>
+   <div class="col-12 ">
+      <img class="card-img-top" src="https://static.nationalgeographic.es/files/styles/image_885/public/75552.ngsversion.1422285553360.jpg" alt="Card image cap" class="img-thumbnail" >
+  <div class="col-12 ">
+      <img class="card-img-top" src="https://www.ecestaticos.com/imagestatic/clipping/c5b/836/c5b836404684e0fb708f5becd2e3cbc5/ya-puedes-usar-los-nuevos-filtros-de-snapchat-exclusivos-para-gatos.jpg?mtime=1539615536" alt="Card image cap" class="img-thumbnail" >
+  <div class="col-12 ">
+      <img class="card-img-top" src="https://www.abc.es/media/ciencia/2017/06/13/gatos-twitter1--620x349-kZnH--620x349@abc.jpg" alt="Card image cap" class="img-thumbnail" >
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><div class="row no-gutters">
+  <div class="col-4 ">
+  <img class="card-img-top" src="http://doctorpet.cl/includes/thumbnailer.php/crop/700/400/ols-cat.jpg" alt="Card image cap" class="img-thumbnail" >
+  </div>
+  <div class="col-4  col-md-4">
+      <img class="card-img-top" src="https://culturizando.com/wp-content/uploads/2018/07/thumb_600x0_gatito.png" alt="Card image cap" class="img-thumbnail" >
+  </div>
+   <div class="col-4 col-md-4">
+      <img class="card-img-top" src="https://static.nationalgeographic.es/files/styles/image_885/public/75552.ngsversion.1422285553360.jpg" alt="Card image cap" class="img-thumbnail" >
+  </div>
+  <div class="col-4 col-md-4">
+      <img class="card-img-top" src="https://www.ecestaticos.com/imagestatic/clipping/c5b/836/c5b836404684e0fb708f5becd2e3cbc5/ya-puedes-usar-los-nuevos-filtros-de-snapchat-exclusivos-para-gatos.jpg?mtime=1539615536" alt="Card image cap" class="img-thumbnail" >
+  </div>
+  <div class="col-4 col-md-4">
+      <img class="card-img-top" src="https://www.abc.es/media/ciencia/2017/06/13/gatos-twitter1--620x349-kZnH--620x349@abc.jpg" alt="Card image cap" class="img-thumbnail" >
+  </div>
+  <div class="col-4 col-md-4">
+      <img class="card-img-top" src="https://www.abc.es/media/ciencia/2017/06/13/gatos-twitter1--620x349-kZnH--620x349@abc.jpg" alt="Card image cap" class="img-thumbnail" >
+  </div></div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+          <div class="modal-body">
+            <div class="input-group">
+                  <textarea class="form-control" rows="5" aria-label="With textarea"></textarea>
+             </div>
+      </div>
+      <div>
+          <button type="button" class="btn btn-light"><i class="fa fa-camera"></i></button>
+          <button type="button" class="btn btn-light"><i class="fa fa-map-marker"></i></button>
+                </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-success">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

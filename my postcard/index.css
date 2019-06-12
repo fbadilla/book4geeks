@@ -1,0 +1,21 @@
+body{
+font-family: 'Indie Flower', cursive;
+}
+.some tr td{color:grey;
+  border-bottom: 1px solid #ddd;
+  }
+button {
+  background-color: grey;
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+  border-bottom: 1px solid #ddd;
+}
+table {
+
+  width: 100%;
+}
